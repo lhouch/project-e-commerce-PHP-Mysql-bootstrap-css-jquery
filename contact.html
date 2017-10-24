@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<style type="text/css">
+
+body {
+ font-family:"trebuchet ms",sans-serif;
+ font-size:90%;
+ background-color: #EFEFEF;
+ }
+ #toto {
+  width: 300px;
+  margin: auto;   
+ }
+form {
+  
+ 
+ background-color: #ccc;
+ padding:10px;
+ width:280px;
+ }
+fieldset {
+ padding: 0px 20px 20px 30px;
+ margin-bottom:10px;
+ border:1px solid #000;
+ }
+legend {
+ color:#000;
+ font-weight:bold
+ }
+label {
+ margin-top:10px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:50px;
+ }
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+input, textarea, select {
+ padding:3px;
+ border:1px solid #000;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #FF8040;
+ background-color: #FF8040;
+ cursor:pointer;
+ }
+ p {
+  position: relative;
+  left: 28px;
+ }
+
+
+#footer{
+  padding: 5px;
+  margin: 20px auto auto auto;
+  background-color: #ccc;
+
+  width: 290px;
+
+ 
+}
+
+#footer ul li {
+  list-style: none;
+  color: #FF8040;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+ 
+  
+}
+label { font-weight: bold;  }
+
+</style>
+</head>
+<body>
+  <div id="toto">
+	<form action="toto.php" method="post" >
+
+<fieldset>
+ <legend>Envoyer votre message </legend>
+
+  <label for="utilise">Nom : </label>
+  <input type="nom" name="nom" size="40" 
+   maxlength="40" placeholder="Nom" id="nom" />
+    <label for="email">Votre email :</label>
+   <input type="email" name="email" size="40" 
+   maxlength="40" placeholder="email" id="email" />
+ 
+  <label for="message">Vos Messager :</label>
+   <textarea name="comments" id="comments" cols="20" rows="4">
+   </textarea>
+</fieldset>
+
+ <p>
+ <input type="submit" value="Envoyer"/>
+ <input type="reset" value="Annuler"/>
+ </p>
+
+</form>
+<div id="footer">
+  <fieldset>
+ <legend>Information</legend>
+
+<address>
+                    <ul>
+                    <li><label name="address">Address :</label></li>
+                    <li><span for="adress">MARRAKECH</span></li>
+                     <li><label name="address">T&eacute;li/fax :</label></li>
+                    <li><span for="teli">+212 5 24 55 34 23 / +212 5 56 45 34 45</span></li>
+                    </ul>
+</address>
+</fieldset>
+</div>
+</div>
+</body>
+</html>

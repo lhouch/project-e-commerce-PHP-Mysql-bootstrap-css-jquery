@@ -1,0 +1,53 @@
+
+body {
+ font-family:"trebuchet ms",sans-serif;
+ font-size:90%;
+ background-color: #EFEFEF;
+ }
+ #toto {
+  width: 300px;
+  margin: auto;   
+ }
+form {
+  margin: auto;
+ 
+ background-color: #ccc;
+ padding:10px;
+ width:350px;
+ }
+
+
+label {
+ margin-top:10px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:50px;
+ }
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+input, textarea, select {
+ padding:3px;
+ border:1px solid #000;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #FF8040;
+ background-color: #FF8040;
+ cursor:pointer;
+ }
+ p {
+  position: relative;
+  left: 28px;
+ }
+
+
+
+label { font-weight: bold;  }
